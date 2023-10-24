@@ -11,7 +11,8 @@ This repository contains data and code for analyzing climate change trends in Ke
 The analysis was performed using Power BI. Pivoting of columns was done by M language.
 
 
-## Results![climate_change_Kenya](https://github.com/winok2/Factors-contributing-to-Climate-Change-in-Kenya/assets/137515971/20453b0c-b13a-47b7-9679-0d7b7737b031)
+## Results![climate_change_Kenya](https://github.com/winok2/Factors-contributing-to-Climate-Change-in-Kenya/assets/137515971/1b1a05e8-ddb8-4003-83ec-777ce477faa4) https://github.com/winok2/Factors-contributing-to-Climate-Change-in-Kenya/blob/main/climate_change_Kenya.png
+
 
 The Power BI analysis has revealed significant trends in climate change indicators in Kenya from 1960 to 2022:
 
