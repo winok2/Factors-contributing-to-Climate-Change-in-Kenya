@@ -29,7 +29,7 @@ For a more detailed overview of these findings, you can explore the Power BI rep
 ## Usage
 To replicate or build upon this analysis using Power BI, follow these steps:
 1. [Download and Install Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/).
-2. Download the Power BI project file from the ` directory and open it in Power BI Desktop.
+2. Download the Power BI project file from https://github.com/winok2/Factors-contributing-to-Climate-Change-in-Kenya/blob/main/Kenya%20Climate%20Report.pbix and open it in Power BI Desktop.
 3. ## Power Query Code for Data Preparation
 To prepare the data for analysis in Power BI, you can use the following Power Query code. This code loads the data, cleans it, and transforms it into a suitable format for your analysis.
 
