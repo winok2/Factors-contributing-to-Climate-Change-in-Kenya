@@ -6,15 +6,13 @@ This repository contains data and code for analyzing climate change trends in Ke
 
 ## Data Sources
 - The climate data for Kenya was obtained from [Humanitarian Data Exchange](https://data.humdata.org/dataset/08847ef3-da1c-4be4-8674-9707fe84128b/resource/4620d328-a2d2-4b5f-9eeb-f07e5bf95c9b/download/climate-change_ken.csv).
-- Data file: climate_change_Kenya.csv
   
 ## Power BI Analysis
-The analysis was performed using Power BI. You can access the analysis results and visualizations in the following ways:
+The analysis was performed using Power BI. Pivoting of columns was done by M language.
 
-1. **View the Power BI Report Online:** [Link to the online Power BI report]
-2. **Download the Power BI Desktop File:** If you have Power BI Desktop, you can download the Power BI project file from the `power_bi_analysis` directory and open it locally for more in-depth exploration.
 
-## Results
+## Results![climate_change_Kenya](https://github.com/winok2/Factors-contributing-to-Climate-Change-in-Kenya/assets/137515971/20453b0c-b13a-47b7-9679-0d7b7737b031)
+
 The Power BI analysis has revealed significant trends in climate change indicators in Kenya from 1960 to 2022:
 
 - **CO2 Emissions:** The analysis indicates that CO2 emissions have shown an overall increase over the years. This suggests a growing concern for the country's carbon footprint.
@@ -101,7 +99,7 @@ let
         {"Roads, paved (% of total roads)", type number}
     }),
     #"Filtered Rows" = Table.SelectRows(#"Changed Type", each true
-
+```
 
 ## Contributing
 Contributions to this project are welcome. If you have ideas for improvements or additional analyses using Power BI or other tools, please open an issue or submit a pull request.
@@ -109,8 +107,3 @@ Contributions to this project are welcome. If you have ideas for improvements or
 ## License
 This project is open-source and available under the [MIT License](LICENSE). You are free to use, modify, and distribute the data and analysis results, but please give appropriate credit.
 
-## Contact
-For questions or inquiries, feel free to contact [Your Name] at [your@email.com].
-
----
-[Optional: Add badges, acknowledgments, or any other relevant information here]
